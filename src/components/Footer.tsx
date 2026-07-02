@@ -16,13 +16,13 @@ export default function Footer() {
 
           <nav
             aria-label="Footer navigation"
-            className="flex flex-wrap items-center justify-center gap-x-8 gap-y-2 lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 lg:gap-x-10"
+            className="grid w-full max-w-sm grid-cols-3 place-items-center gap-x-6 gap-y-5 lg:absolute lg:top-1/2 lg:left-1/2 lg:flex lg:w-auto lg:max-w-none lg:-translate-x-1/2 lg:-translate-y-1/2 lg:flex-wrap lg:justify-center lg:gap-x-10 lg:gap-y-2"
           >
             {footerNavLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-[15px] font-light tracking-wide text-parchment/60 transition-colors hover:text-gold sm:text-base"
+                className="w-full text-center text-[14px] font-light tracking-wide text-parchment/60 transition-colors hover:text-gold sm:text-[15px] lg:w-auto"
               >
                 {link.label}
               </Link>

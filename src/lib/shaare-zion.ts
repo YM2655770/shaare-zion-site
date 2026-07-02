@@ -1,5 +1,5 @@
 import type { LucideIcon } from "lucide-react";
-import { BookOpen, Calendar, Clock, HeartHandshake, Phone, Users } from "lucide-react";
+import { BookOpen, Calendar, Clock, HeartHandshake, Landmark, Phone, Users } from "lucide-react";
 
 export const heroNavLinks = [
   { href: "/administrations", label: "Administration" },
@@ -194,11 +194,17 @@ export const communityArticles: CommunityArticle[] = [
   },
 ];
 
-export const historyStats = [
-  { value: "1945", label: "Year founded" },
-  { value: "2000+", label: "Active members" },
-  { value: "15+", label: "Community programs" },
-] as const;
+export type HistoryStat = {
+  value: string;
+  label: string;
+  icon: LucideIcon;
+};
+
+export const historyStats: HistoryStat[] = [
+  { value: "1945", label: "Year founded", icon: Landmark },
+  { value: "2000+", label: "Active members", icon: Users },
+  { value: "15+", label: "Community programs", icon: Calendar },
+];
 
 export const historyParagraphs = [
   "Founded in 1945, Congregation Shaare Zion has become one of the most vibrant Sephardic communities in Brooklyn. Our synagogue, with its distinctive architecture and iconic dome, has been a gathering place for prayer, study, and community engagement for more than seven decades.",

@@ -1,5 +1,37 @@
-import { congregationInfo, historyParagraphs, historyStats } from "@/lib/shaare-zion";
+import {
+  congregationInfo,
+  historyParagraphs,
+  historyStats,
+} from "@/lib/shaare-zion";
 import Image from "next/image";
+
+function StatBlock({
+  icon: Icon,
+  value,
+  label,
+  className,
+}: {
+  icon: (typeof historyStats)[number]["icon"];
+  value: string;
+  label: string;
+  className?: string;
+}) {
+  return (
+    <div className={className}>
+      <Icon
+        className="mx-auto h-9 w-9 text-gold md:h-7 md:w-7 md:mx-0"
+        strokeWidth={1.25}
+        aria-hidden
+      />
+      <p className="font-serif mt-2 text-xl font-light text-brown-dark min-[400px]:text-2xl md:mt-3 md:text-3xl">
+        {value}
+      </p>
+      <p className="mt-1 text-[10px] font-light leading-snug tracking-wide text-brown-muted min-[400px]:text-[11px] md:text-start">
+        {label}
+      </p>
+    </div>
+  );
+}
 
 export default function HomeHistory() {
   return (
@@ -46,16 +78,19 @@ export default function HomeHistory() {
             </p>
           ))}
 
-          <dl className="mt-12 flex flex-wrap gap-10 border-t border-line pt-10">
-            {historyStats.map((stat) => (
-              <div key={stat.label}>
-                <dt className="font-serif text-3xl font-light text-brown-dark">{stat.value}</dt>
-                <dd className="mt-1 text-[11px] font-light tracking-wide text-brown-muted">
-                  {stat.label}
-                </dd>
-              </div>
-            ))}
-          </dl>
+          <div className="mt-12 border-t border-line pt-10">
+            <div className="grid grid-cols-3 place-items-center gap-x-4 gap-y-6 md:flex md:flex-wrap md:items-start md:justify-start md:gap-10 md:place-items-start">
+              {historyStats.map((stat) => (
+                <StatBlock
+                  key={stat.label}
+                  icon={stat.icon}
+                  value={stat.value}
+                  label={stat.label}
+                  className="flex w-full flex-col items-center text-center md:w-auto md:items-start md:text-start"
+                />
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </section>
