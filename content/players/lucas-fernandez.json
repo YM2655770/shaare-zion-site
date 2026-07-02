@@ -1,0 +1,28 @@
+{
+  "slug": "lucas-fernandez",
+  "name": "Lucas Fernandez",
+  "position": "Gardien",
+  "club": "Real Sociedad B",
+  "league": "Primera RFEF",
+  "nationality": "Espagne",
+  "age": 22,
+  "height": "1,89 m",
+  "foot": "Droit",
+  "languages": ["Espagnol", "Anglais"],
+  "status": "Actif",
+  "keyStat": "11",
+  "keyStatLabel": "clean sheets",
+  "summary": "Gardien réactif avec une excellente sortie sur les centres et une communication constante.",
+  "strengths": ["Réflexes", "Jeu au pied", "Commandement de surface"],
+  "playingStyle": "Gardien moderne, à l'aise dans la construction.",
+  "career": [{ "period": "2022 —", "club": "Real Sociedad B", "detail": "Primera RFEF" }],
+  "stats": {
+    "matches": 22,
+    "minutes": 1980,
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 11,
+    "avgRating": 7.1
+  },
+  "image": "https://images.unsplash.com/photo-1560272564-c83b66b1ad12?w=800&q=80"
+}

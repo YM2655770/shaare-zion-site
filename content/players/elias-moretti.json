@@ -1,0 +1,35 @@
+{
+  "slug": "elias-moretti",
+  "name": "Elias Moretti",
+  "position": "Défenseur central",
+  "club": "Torino U23",
+  "league": "Serie C",
+  "nationality": "Italie",
+  "age": 19,
+  "height": "1,91 m",
+  "foot": "Gauche",
+  "languages": ["Italien", "Anglais"],
+  "status": "Jeune talent",
+  "number": 4,
+  "contractUntil": "2028",
+  "keyStat": "87%",
+  "keyStatLabel": "duels gagnés",
+  "summary": "Défenseur calme et dominant dans les duels aériens, à l'aise dans la relance sous pression.",
+  "strengths": ["Duels aériens", "Relance", "Lecture du jeu"],
+  "playingStyle": "Central moderne, construction propre et leadership défensif.",
+  "career": [
+    { "period": "2024 —", "club": "Torino U23", "detail": "Serie C" },
+    { "period": "2022 — 2024", "club": "Torino Primavera", "detail": "Youth" }
+  ],
+  "stats": {
+    "matches": 24,
+    "minutes": 1980,
+    "goals": 2,
+    "assists": 1,
+    "duelsWon": "87%",
+    "avgRating": 7.0
+  },
+  "image": "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=800&q=80",
+  "instagram": "#",
+  "transfermarkt": "#"
+}

@@ -1,26 +1,152 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f0ebe3;
+  --foreground: #2c1f14;
+  --parchment: #f0ebe3;
+  --parchment-deep: #e4ddd2;
+  --brown-dark: #2c1f14;
+  --brown: #4a3728;
+  --brown-mid: #5c4033;
+  --brown-muted: #8b7355;
+  --charcoal: #2a2a2a;
+  --gold: #c9a84c;
+  --gold-light: #dfc06e;
+  --white: #ffffff;
+  --muted-foreground: #6b5a4a;
+  --line: rgba(74, 55, 40, 0.16);
+  --line-gold: rgba(201, 168, 76, 0.5);
+  --gold-subtle: rgba(201, 168, 76, 0.28);
+  --font-size-base: 17px;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-parchment: var(--parchment);
+  --color-parchment-deep: var(--parchment-deep);
+  --color-brown-dark: var(--brown-dark);
+  --color-brown: var(--brown);
+  --color-brown-mid: var(--brown-mid);
+  --color-brown-muted: var(--brown-muted);
+  --color-charcoal: var(--charcoal);
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-white: var(--white);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-line: var(--line);
+  --color-gold-subtle: var(--gold-subtle);
+  --font-sans: var(--font-body);
+  --font-serif: var(--font-display);
 }
 
 body {
-  background: var(--background);
+  background: var(--parchment);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body), system-ui, sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-serif {
+  font-family: var(--font-display), Georgia, serif;
+}
+
+.font-sans {
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+/* Layout — barres et conteneurs alignés */
+.editorial-container {
+  margin-inline: auto;
+  max-width: 1400px;
+  padding-inline: 2rem;
+}
+
+@media (min-width: 640px) {
+  .editorial-container {
+    padding-inline: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .editorial-container {
+    padding-inline: 5rem;
+  }
+}
+
+.editorial-bar {
+  border-bottom: 1px solid var(--line);
+}
+
+.editorial-bar-top {
+  border-top: 1px solid var(--line);
+}
+
+.editorial-rule {
+  height: 1px;
+  background: var(--line);
+}
+
+.editorial-rule-gold {
+  height: 1px;
+  background: var(--line-gold);
+}
+
+.editorial-frame {
+  border: 1px solid var(--line);
+}
+
+.editorial-frame-t {
+  border-top: 1px solid var(--line);
+}
+
+.editorial-frame-l {
+  border-left: 1px solid var(--line-gold);
+}
+
+.editorial-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.6875rem;
+  font-weight: 300;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--brown);
+  transition: color 0.4s ease, gap 0.4s ease;
+}
+
+.editorial-link:hover {
+  color: var(--gold);
+  gap: 1.125rem;
+}
+
+.editorial-link-on-dark {
+  color: rgba(240, 235, 227, 0.55);
+}
+
+.editorial-link-on-dark:hover {
+  color: var(--gold);
+}
+
+.pattern-arch {
+  background-image: url("/images/pattern-arch.svg");
+  background-repeat: repeat;
+}
+
+.pattern-marble {
+  background-image:
+    linear-gradient(135deg, rgba(240, 235, 227, 0.92) 0%, rgba(228, 221, 210, 0.88) 100%),
+    url("/images/pattern-marble.svg");
+  background-repeat: repeat;
+}
+
+.grayscale-photo {
+  filter: grayscale(100%) contrast(1.08);
+}
+
+::selection {
+  background: rgba(201, 168, 76, 0.25);
+  color: var(--brown-dark);
 }

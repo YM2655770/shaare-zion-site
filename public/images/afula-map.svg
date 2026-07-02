@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 140" fill="none" aria-hidden="true">
+  <rect width="200" height="140" rx="8" fill="#1A5A96"/>
+  <path d="M20 90 Q60 60 100 75 T180 85" stroke="#3B9FD9" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M30 100 Q80 70 120 88 T170 95" stroke="#3B9FD9" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <ellipse cx="100" cy="72" rx="45" ry="30" fill="#0C3D6E" opacity="0.5"/>
+  <circle cx="100" cy="72" r="6" fill="#fff"/>
+  <circle cx="100" cy="72" r="3" fill="#C53030"/>
+  <text x="100" y="115" text-anchor="middle" font-family="system-ui" font-size="9" fill="rgba(255,255,255,0.7)">Afula</text>
+</svg>

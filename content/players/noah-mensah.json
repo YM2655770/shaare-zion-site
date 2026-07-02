@@ -1,0 +1,34 @@
+{
+  "slug": "noah-mensah",
+  "name": "Noah Mensah",
+  "position": "Attaquant",
+  "club": "Anderlecht Futures",
+  "league": "Challenger Pro League",
+  "nationality": "Ghana",
+  "age": 20,
+  "height": "1,86 m",
+  "foot": "Droit",
+  "languages": ["Anglais", "Français"],
+  "status": "Jeune talent",
+  "number": 9,
+  "contractUntil": "2027",
+  "keyStat": "0.62",
+  "keyStatLabel": "buts / 90 min",
+  "summary": "Attaquant puissant avec une finition naturelle et une capacité à attirer la défense pour créer des espaces.",
+  "strengths": ["Finition", "Appels", "Présence dans la surface"],
+  "playingStyle": "Avant-centre mobile, efficace dans les transitions.",
+  "career": [
+    { "period": "2023 —", "club": "Anderlecht Futures", "detail": "Challenger Pro League" },
+    { "period": "2021 — 2023", "club": "Right to Dream", "detail": "Academy" }
+  ],
+  "stats": {
+    "matches": 26,
+    "minutes": 1820,
+    "goals": 15,
+    "assists": 4,
+    "avgRating": 7.3
+  },
+  "image": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=800&q=80",
+  "instagram": "#",
+  "transfermarkt": "#"
+}

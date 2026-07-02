@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" fill="none" aria-hidden="true">
+  <g transform="translate(8, 8)">
+    <path d="M32 6 L42 20 H22 Z" fill="#4A3728"/>
+    <rect x="14" y="20" width="36" height="44" rx="1" fill="none" stroke="#4A3728" stroke-width="1.5"/>
+    <path d="M14 30 H50" stroke="#4A3728" stroke-width="1"/>
+    <path d="M22 20 V64 M32 20 V64 M42 20 V64" stroke="#4A3728" stroke-width="0.75" opacity="0.5"/>
+    <circle cx="18" cy="48" r="5" fill="none" stroke="#4A3728" stroke-width="1"/>
+    <path d="M18 45.5 L19 49 H17 Z" fill="#4A3728"/>
+  </g>
+  <text x="68" y="32" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-weight="600" fill="#4A3728">??? ???? ????</text>
+  <text x="68" y="50" font-family="Georgia, serif" font-size="9" font-weight="600" letter-spacing="0.12em" fill="#4A3728">CONGREGATION</text>
+  <text x="68" y="64" font-family="Georgia, serif" font-size="9" font-weight="600" letter-spacing="0.12em" fill="#4A3728">SHAARE ZION</text>
+</svg>

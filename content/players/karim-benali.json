@@ -1,0 +1,31 @@
+{
+  "slug": "karim-benali",
+  "name": "Karim Benali",
+  "position": "Milieu défensif",
+  "club": "Antwerp",
+  "league": "Pro League",
+  "nationality": "Maroc",
+  "age": 23,
+  "height": "1,84 m",
+  "foot": "Droit",
+  "languages": ["Français", "Arabe", "Néerlandais"],
+  "status": "Actif",
+  "keyStat": "92%",
+  "keyStatLabel": "passes réussies",
+  "summary": "Milieu récupérateur discipliné, pivot entre défense et création.",
+  "strengths": ["Interceptions", "Disponibilité", "Passes courtes"],
+  "playingStyle": "6 pur, régulateur du tempo.",
+  "career": [
+    { "period": "2024 —", "club": "Antwerp", "detail": "Pro League" },
+    { "period": "2021 — 2024", "club": "Charleroi", "detail": "Pro League" }
+  ],
+  "stats": {
+    "matches": 30,
+    "minutes": 2450,
+    "goals": 3,
+    "assists": 4,
+    "passAccuracy": "92%",
+    "avgRating": 6.9
+  },
+  "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&q=80"
+}

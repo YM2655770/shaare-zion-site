@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "gestion-carriere",
+    "title": "Gestion de carrière",
+    "summary": "Vision long terme et planification stratégique de chaque étape.",
+    "description": "Nous construisons une trajectoire cohérente en alignant ambitions sportives, timing et environnement optimal pour chaque joueur.",
+    "order": 1
+  },
+  {
+    "slug": "negociation-contractuelle",
+    "title": "Négociation contractuelle",
+    "summary": "Protection des intérêts sportifs, financiers et personnels.",
+    "description": "Chaque clause est analysée avec précision pour sécuriser la carrière et maximiser le potentiel du joueur.",
+    "order": 2
+  },
+  {
+    "slug": "strategie-transfert",
+    "title": "Stratégie de transfert",
+    "summary": "Décisions ciblées, confidentielles et orientées performance.",
+    "description": "Nous identifions les marchés et clubs adaptés au profil, au stade de développement et aux objectifs individuels.",
+    "order": 3
+  },
+  {
+    "slug": "image-personal-branding",
+    "title": "Image & personal branding",
+    "summary": "Marque personnelle crédible et alignée avec l'ambition.",
+    "description": "Nous développons une présence publique maîtrisée, cohérente et valorisante sur tous les canaux.",
+    "order": 4
+  },
+  {
+    "slug": "sponsoring-partenariats",
+    "title": "Sponsoring & partenariats",
+    "summary": "Opportunités commerciales sélectives et durables.",
+    "description": "Nous connectons nos joueurs à des marques compatibles avec leur image et leurs valeurs.",
+    "order": 5
+  },
+  {
+    "slug": "conseil-juridique-financier",
+    "title": "Conseil juridique et financier",
+    "summary": "Accompagnement complet sur les dimensions non sportives.",
+    "description": "Réseau d'experts pour sécuriser chaque décision contractuelle et patrimoniale.",
+    "order": 6
+  },
+  {
+    "slug": "developpement-jeunes-talents",
+    "title": "Développement jeunes talents",
+    "summary": "Programme dédié aux profils à fort potentiel.",
+    "description": "Mentorat, préparation mentale et exposition progressive vers les environnements les plus exigeants.",
+    "order": 7
+  }
+]

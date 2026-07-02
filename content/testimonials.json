@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Directeur sportif, club Ligue 1",
+    "role": "Club professionnel",
+    "organization": "Ligue 1",
+    "quote": "Une approche discrète, précise et toujours orientée vers la bonne décision pour le joueur comme pour le club.",
+    "type": "club"
+  },
+  {
+    "name": "Marcus D.",
+    "role": "Milieu offensif",
+    "quote": "Ils ne vendent pas un rêve. Ils construisent une stratégie claire, étape par étape.",
+    "type": "joueur"
+  },
+  {
+    "name": "Parent d'un jeune talent",
+    "role": "Famille",
+    "quote": "Transparence, exigence et disponibilité. Exactement ce qu'on attend d'une représentation sérieuse.",
+    "type": "parent"
+  }
+]

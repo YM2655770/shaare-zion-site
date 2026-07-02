@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="arch" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a1a" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#1a1a1a" stop-opacity="0.4" />
+    </linearGradient>
+  </defs>
+  <g stroke="#1a1a1a" stroke-width="1.2" opacity="0.85">
+    <path d="M80 680V420c0-88 72-160 160-160s160 72 160 160v260" fill="url(#arch)" />
+    <path d="M320 680V380c0-110 90-200 200-200s200 90 200 200v300" fill="url(#arch)" />
+    <path d="M600 680V340c0-121 99-220 220-220s220 99 220 220v340" fill="url(#arch)" />
+    <path d="M920 680V400c0-99 81-180 180-180s180 81 180 180v280" fill="url(#arch)" />
+    <path d="M120 680h960" stroke-width="2" />
+    <path d="M200 520h80M360 480h80M520 440h80M680 460h80M840 500h80" stroke-width="0.8" opacity="0.5" />
+    <circle cx="600" cy="180" r="90" stroke-width="1" opacity="0.35" />
+    <path d="M540 180h120M600 120v120" stroke-width="0.8" opacity="0.35" />
+    <path d="M140 300l40-60 40 60M380 260l40-60 40 60M660 220l40-60 40 60M960 280l40-60 40 60" opacity="0.4" />
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+{
+  "slug": "theo-schmidt",
+  "name": "Theo Schmidt",
+  "position": "Latéral gauche",
+  "club": "Hambourg",
+  "league": "Bundesliga",
+  "nationality": "Allemagne",
+  "age": 24,
+  "height": "1,80 m",
+  "foot": "Gauche",
+  "languages": ["Allemand", "Anglais"],
+  "status": "Actif",
+  "keyStat": "8",
+  "keyStatLabel": "passes décisives",
+  "summary": "Latéral offensif avec une grande capacité à monter et centrer en course.",
+  "strengths": ["Centres", "Endurance", "Duels"],
+  "playingStyle": "Piston gauche complet, solide défensivement.",
+  "career": [{ "period": "2023 —", "club": "Hambourg", "detail": "Bundesliga" }],
+  "stats": {
+    "matches": 27,
+    "minutes": 2210,
+    "goals": 2,
+    "assists": 8,
+    "avgRating": 6.8
+  },
+  "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&q=80"
+}

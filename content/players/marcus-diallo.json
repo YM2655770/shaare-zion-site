@@ -1,0 +1,40 @@
+{
+  "slug": "marcus-diallo",
+  "name": "Marcus Diallo",
+  "position": "Milieu offensif",
+  "secondaryPositions": ["Ailier droit"],
+  "club": "FC Lausanne",
+  "league": "Super League",
+  "nationality": "France",
+  "age": 21,
+  "height": "1,82 m",
+  "foot": "Droit",
+  "languages": ["Français", "Anglais"],
+  "status": "Actif",
+  "number": 10,
+  "contractUntil": "2027",
+  "estimatedValue": "€2.5M",
+  "keyStat": "14",
+  "keyStatLabel": "contributions décisives",
+  "summary": "Créateur dynamique entre les lignes, capable de débloquer les situations les plus fermées par sa vision et sa percussion.",
+  "strengths": ["Vision de jeu", "Percussion", "Finition"],
+  "playingStyle": "Milieu offensif moderne, vertical et efficace dans le dernier tiers.",
+  "career": [
+    { "period": "2023 —", "club": "FC Lausanne", "detail": "Super League" },
+    { "period": "2021 — 2023", "club": "Toulouse B", "detail": "National 2" }
+  ],
+  "careerGoals": "Consolider en Super League suisse puis viser un top 5 européen d'ici 2028.",
+  "quote": "Chaque saison doit être une progression, pas une confirmation.",
+  "stats": {
+    "matches": 28,
+    "minutes": 2140,
+    "goals": 9,
+    "assists": 5,
+    "passAccuracy": "84%",
+    "avgRating": 7.2
+  },
+  "image": "https://images.unsplash.com/photo-1574629810360-7efbbe195778?w=800&q=80",
+  "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  "instagram": "#",
+  "transfermarkt": "#"
+}
