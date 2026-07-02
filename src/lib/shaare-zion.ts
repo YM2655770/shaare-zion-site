@@ -1,5 +1,5 @@
 import type { LucideIcon } from "lucide-react";
-import { BookOpen, Calendar, HeartHandshake, Phone } from "lucide-react";
+import { BookOpen, Calendar, Clock, HeartHandshake, Phone, Users } from "lucide-react";
 
 export const heroNavLinks = [
   { href: "/administrations", label: "Administration" },
@@ -57,6 +57,71 @@ export const footerLegalLinks = [
   { href: "/privacy", label: "Privacy Policy" },
   { href: "/accessibility", label: "Accessibility" },
 ] as const;
+
+/** @deprecated Use `mainNavLinks` — kept for legacy components */
+export const navLinks = mainNavLinks;
+
+/** @deprecated Use `heroNavLinks` — kept for legacy components */
+export const adminNavLinks = heroNavLinks;
+
+export type TextSnippet = {
+  title: string;
+  text: string;
+};
+
+export const textSnippets: TextSnippet[] = [
+  {
+    title: "Shabbat Speaker Series",
+    text: "Distinguished guest speakers join us throughout the year at the Joe and Celia Esses Dome. All are welcome.",
+  },
+  {
+    title: "Community Programs",
+    text: "Education, youth activities, and family engagement — explore how to take part in kehilla life.",
+  },
+];
+
+export type MomentCard = {
+  href: string;
+  title: string;
+  description: string;
+  icon: LucideIcon;
+};
+
+export const momentCards: MomentCard[] = [
+  {
+    href: "/prochains",
+    title: "Shabbat Schedule",
+    description: "Candle lighting, services, and Havdalah times for the week ahead.",
+    icon: Calendar,
+  },
+  {
+    href: "/prochains",
+    title: "Upcoming Events",
+    description: "Holidays, celebrations, and community gatherings on the calendar.",
+    icon: Clock,
+  },
+  {
+    href: "/communaute",
+    title: "Community Life",
+    description: "Programs, announcements, and ways to connect with the kehilla.",
+    icon: Users,
+  },
+];
+
+export type RabbiMessageData = {
+  image: string;
+  name: string;
+  title: string;
+  quote: string;
+};
+
+export const rabbiMessage: RabbiMessageData = {
+  image: "/images/shaare-zion-interior.png",
+  name: "Congregation Shaare Zion",
+  title: "Words from Our Community",
+  quote:
+    "Our synagogue is a home for Torah, prayer, and generations united in faith — welcoming every family to grow together in tradition and purpose.",
+};
 
 export type ActionCard = {
   href: string;

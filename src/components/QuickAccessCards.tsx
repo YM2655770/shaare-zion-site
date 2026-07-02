@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { holidayLinks, maqamLinks } from "@/lib/navigation";
 import { currentHoliday, currentMaqam } from "@/lib/piyoutim";
 
 const cards = [
