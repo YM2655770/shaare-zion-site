@@ -33,7 +33,7 @@ export default function SiteLogo({
         className={cn(
           "h-auto w-auto object-contain object-left brightness-0 invert",
           isHero
-            ? "max-h-[100px] max-w-[min(260px,52vw)] drop-shadow-[0_2px_14px_rgba(0,0,0,0.4)] sm:max-h-28 sm:max-w-[300px] lg:max-h-32 lg:max-w-[340px]"
+            ? "max-h-[120px] max-w-[min(300px,72vw)] object-center drop-shadow-[0_2px_14px_rgba(0,0,0,0.4)] sm:max-h-28 sm:max-w-[300px] sm:object-left lg:max-h-32 lg:max-w-[340px]"
             : "max-h-[92px] max-w-[220px] opacity-90 transition-opacity group-hover:opacity-100 sm:max-h-24 sm:max-w-[240px]",
         )}
       />

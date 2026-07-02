@@ -6,7 +6,7 @@ import HomeNav from "./HomeNav";
 export default function HomeHero() {
   return (
     <section aria-labelledby="home-hero-title" className="relative">
-      <div className="relative h-[min(88vh,780px)] w-full overflow-hidden">
+      <div className="relative min-h-[min(52vh,440px)] w-full overflow-hidden sm:h-[min(88vh,780px)] sm:min-h-0">
         <Image
           src={congregationInfo.heroInteriorImage}
           alt="Interior of Shaare Zion synagogue"
@@ -19,7 +19,7 @@ export default function HomeHero() {
 
         <HomeNav />
 
-        <div className="relative flex h-full flex-col items-center justify-center px-6 pt-24 pb-36 text-center sm:px-10">
+        <div className="relative flex flex-col items-center px-6 pt-28 pb-6 text-center sm:h-full sm:justify-center sm:px-10 sm:pt-24 sm:pb-36">
           <h1
             id="home-hero-title"
             className="font-serif max-w-4xl text-[clamp(2.25rem,5.5vw,3.75rem)] leading-snug font-light text-white"
@@ -28,13 +28,13 @@ export default function HomeHero() {
             <br />
             your community home
           </h1>
-          <p className="mt-6 max-w-2xl text-base leading-relaxed font-light text-white/85 sm:text-lg">
+          <p className="mt-4 max-w-2xl text-base leading-relaxed font-light text-white/85 sm:mt-6 sm:text-lg">
             {congregationInfo.tagline}
           </p>
         </div>
       </div>
 
-      <div className="relative z-10 -mt-24 px-6 sm:-mt-28 sm:px-10 lg:px-12">
+      <div className="relative z-10 mt-7 px-6 sm:-mt-28 sm:mt-0 sm:px-10 lg:px-12">
         <div className="mx-auto grid max-w-6xl grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5">
           {actionCards.map((card) => {
             const Icon = card.icon;
