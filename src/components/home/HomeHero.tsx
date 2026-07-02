@@ -1,5 +1,6 @@
 import { actionCards, congregationInfo } from "@/lib/shaare-zion";
-import Image from "next/image";import Link from "next/link";
+import Image from "next/image";
+import Link from "next/link";
 import HomeNav from "./HomeNav";
 
 export default function HomeHero() {
@@ -53,7 +54,8 @@ export default function HomeHero() {
                 </article>
               </Link>
             );
-          })}        </div>
+          })}
+        </div>
       </div>
     </section>
   );

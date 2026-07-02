@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Cormorant_Garamond, Jost } from "next/font/google";
 import Footer from "@/components/Footer";
 import "./globals.css";
@@ -14,6 +14,11 @@ const body = Jost({
   subsets: ["latin"],
   weight: ["200", "300", "400"],
 });
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
 
 export const metadata: Metadata = {
   title: "Congregation Shaare Zion | Brooklyn, NY",
